@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="tab icon" type="icon" href="images/assets/tabicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="website.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+
+    
+</head>
+
+<body>
+           
+
+    <div class="container">
+        <nav id="nav">
+            <div class="logo">
+                <h1>DelishDining</h1>
+            </div>
+            <div class="input">
+                <input type="text" alt="screach" id="inp" placeholder="Search Here...." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icons">
+
+                <i onclick="login()"  class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i  onclick="nav()"  class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+<!-- LOGIN AND NAV -->
+
+<div class="login">
+    <h2>Log In</h2>
+    <input type="text" placeholder="User Name">
+    <input type="password" placeholder="Password">
+    <button>Log In</button>
+    <button onclick="cancel()">cancel</button>
+</div>
+
+<div class="nav">
+    <button onclick="cross()">X</button>
+    <p>Home</p>
+    <p>About</p>
+    <p>Contact Us</p>
+    <p>Foods</p>
+</div>
+
+
+
+
+<!-- LOGIN AN NAV -->
+
+
+
+        <!-- Main -->
+        <div class="main">
+            <div class="text">
+                <h1>
+                    Simple And Tasty Food<br> Is Here
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Modi voluptates neque, fugit dolore nemo iusto.
+                    Explicabo assumenda id aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                    iusto recusandae itaque aperiam eligendi dolorum, totam voluptas animi. Voluptate necessitatibus
+                    laudantium culpa quibusdam dolorem pariatur.
+                </p>
+                <button class="button">Explore More</button>
+            </div>
+            <img src="images\assets\fv1.png" alt="food">
+        </div>
+        <!-- Cards -->
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <center>
+                            <h1 >Our <span>Foods</span></h1>
+                        </center>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="images\assets\fd1.png" alt="Foods">
+                            <h2> Price:200$ </h2>
+                            <p>Lorem, Ab pariatur necessitatibus, sapiente eligendi ducimus, consequatur nobis explicabo
+                                eum maiores</p>
+                            <button class="bet">Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="images\assets\fd2.png" alt="Foods">
+                            <h2> Price:200$ </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore tempora delectus
+                                dolores?Lorem, Ab pariatur necessitatibus, sapiente eligendi ducimus, consequatur nobis
+                                explicabo eum maiores</p><br><br>
+                            <button class="bet">Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="images\assets\fd3.png" alt="Foods">
+                            <h2> Price:200$ </h2>
+                            <p>Lorem, Ab pariatur necessitatibus, sapiente eligendi ducimus, consequatur nobis explicabo
+                                eum maiores</p>
+                            <button >Order Now</button>
+                        </div>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="images\assets\fd4.png" alt="Foods">
+                            <h2> Price:200$ </h2><br>
+                            <p>Lorem, Ab pariatur necessitatibus, sapiente eligendi ducimus, consequatur nobis explicabo
+                                eum maiores</p>
+                            <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="images\assets\fd5.png" alt="Foods">
+                            <h2> Price:200$ </h2>
+                            <p>Lorem, Ab pariatur necessitatibus, sapiente eligendi ducimus, consequatur nobis explicabo
+                                eum maiores</p>
+                            <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="images\assets\fd6.png" alt="Foods">
+                            <h2> Price:200$ </h2>
+                            <p>Lorem, Ab pariatur necessitatibus, sapiente eligendi ducimus, consequatur nobis explicabo
+                                eum maiores</p>
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1 >Our <span>Blogs</span></h1>
+                    </div>
+
+
+                    <div class="crd">
+                        <div class="card">
+                            <img src="images\assets\fd11.png" alt="Foods">
+                            <h2> WOW Foods</h2>
+                            <p>Lorem, Ab pariatur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium ad officia aperiam. necessitatibus, sapiente eligendi ducimus, consequatur nobis explicabo
+                                eum maiores</p>
+                            <button > <a href="https://migrationology.com/pakistani-food/" target="_main">Read
+                                    More</a> </button>
+                        </div>
+                        <div class="card">
+                            <img src="images\assets\fd10.png" alt="Foods">
+                            <h2> Visit Amazing And Tasty Foods</h2>
+                            <p>Lorem, Ab pariatur necessitatibus, sapiente eligendi ducimus, consequatur nobis explicabo
+                                eum maiores</p>
+                            <button> <a href="https://migrationology.com/pakistani-food/" target="_main"> Read More</a>
+                            </button>
+                        </div>
+                        <div class="card">
+                            <img src="images\assets\fd9.png" alt="Foods">
+                            <h2> Dilisious Food Is Here </h2>
+                            <p>Lorem, Ab pariatur necessitatibus, sapiente eligendi ducimus, consequatur nobis explicabo
+                                eum maiores</p>
+                            <button> <a href="https://migrationology.com/pakistani-food/" target="_main"> Read More</a>
+                            </button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+        <center> <h1 >Customer <span>Review</span></h1></center>
+
+        <!-- Customer Review -->
+        <!-- <div class="review">
+            <div class="customer">
+                <img src="/Images/man1.webp">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rem unde sapiente?</p>
+            </div>
+            <div class="customer">
+                <img src="/Images/man2.webp">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-light fa-star"></i>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rem unde sapiente?</p>
+            </div>
+            <div class="customer">
+                <img src="/Images/man3.jpeg">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rem unde sapiente?</p>
+            </div>
+        </div> -->
+
+
+
+
+<!-- review -->
+  
+<div class="container1">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+            <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="images\assets\creator.jpg">
+                    </div>
+                    <div class="testimonial-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi incidunt
+                            laudantium nesciunt omnis, provident repudiandae rerum sed! Amet blanditiis eaque eu!
+                        </p>
+                    </div>
+                    <h3 class="testimonial-title">
+                        <a href="#">Hamza</a>
+                        
+                    </h3>
+                </div>
+
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="images\assets\man2.webp">
+                    </div>
+                    <div class="testimonial-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi incidunt
+                            laudantium nesciunt omnis, provident repudiandae rerum sed! Amet blanditiis eaque eu
+                        </p>
+                    </div>
+                    <h3 class="testimonial-title">
+                        <a href="#">Peter</a>
+                        
+                    </h3>
+                </div>
+
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="images\assets\man3.jpeg">
+                    </div>
+                    <div class="testimonial-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi incidunt
+                            laudantium nesciunt omnis, provident repudiandae rerum sed! Amet blanditiis eaque eum
+                            odit repellendus!
+                        </p>
+                    </div>
+                    <h3 class="testimonial-title">
+                        <a href="#">Sally</a>
+                        
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#testimonial-slider').owlCarousel({
+            items:1,
+            itemsDesktop:[1000,1],
+            itemsDesktopSmall:[979,1],
+            itemsTablet:[768,1],
+            pagination: false,
+            navigation:true,
+            navigationText:["",""],
+            slideSpeed:1000,
+            autoPlay:true
+        });
+    });
+</script>
+<!-- review end -->
+
+
+<!-- /* opening hours */ -->
+
+
+<div class="contact" id="contact">
+
+    <h1 class="heading"> <span>Openning</span> Hours</h1>
+
+    <div class="ions-container">
+
+        <div class="ions">
+            <i class="fas fa-clock"></i>
+            <p>Monday - Thursday: 06:00 am to 12:30 pm</p>
+            <p>Friday: OFF</p>
+            <p>Saturday,Sunday: 10:00 am to 12:00 pm</p>
+        </div>
+
+        
+
+    </div>
+    </div>
+
+    <!-- /* opening hours */ -->
+
+<!-- flipper -->
+    <h1>Other <span>Branches</span></h1>
+   
+    <div class="flip">
+        <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images\assets\res1.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Karachi</h1> <br>
+          <p>Majeed SRE Stadium Road Karachi </p> <br><br>
+          <p style="font-size: large;">"Eating is a necessity, but cooking is an art."</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images\assets\res2.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Islamabad</h1> 
+          <p>Welcome Foodies</p> <br><br>
+          <p>"Good food is all the sweeter when shared with good friends."</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images\assets\res3.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Faislabad</h1> 
+            <p>Welcome Foodies</p> <br><br>
+            <p>"The only thing I like better than talking about food is eating."</p>
+          </div>
+        </div>
+      </div>
+
+</div>
+
+<!-- flipper -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+
+        <div class="footer">
+            <div class="text">
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor ,consectetur adipisicing elit.<br> Adipisci beatae officia quisquam.</p>
+                <p><i class="fas fa-caret-right"></i>Services</p>
+               <p><i class="fas fa-caret-right"></i>Customer</p>
+                  <p><i class="fas fa-caret-right"></i>Foods</p>
+
+            </div>
+            <div class="text">
+                <h2>About us</h2>
+                <p><i class="fas fa-caret-right"></i>Products</p>
+                <p><i class="fas fa-caret-right"></i>Services</p>
+                <p><i class="fas fa-caret-right"></i>Customer</p>
+                <p><i class="fas fa-caret-right"></i>Foods</p>
+
+            </div>
+            <div class="text">
+                <h2>About us</h2>
+                <p><i class="fas fa-caret-right"></i>Foods</p>
+                <p><i class="fas fa-caret-right"></i>Services</p>
+                <p><i class="fas fa-caret-right"></i>Customer</p>
+                <p><i class="fas fa-caret-right"></i>Foods</p>
+
+            </div>
+            <div class="text">
+                <h2>About us</h2>
+                <p><i class="fas fa-caret-right"></i>Prices</p>
+                <p><i class="fas fa-caret-right"></i>Services</p>
+                <p><i class="fas fa-caret-right"></i>Customer</p>
+                <p><i class="fas fa-caret-right"></i>Foods</p>
+
+            </div>
+        </div>
+        <div class="shadow"></div>
+
+<!-- footer -->
+
+    </div>
+
+    <script src="website.js"></script>
+
+</body>
+
+</html>
